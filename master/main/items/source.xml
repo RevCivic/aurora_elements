@@ -13,7 +13,7 @@
 			<set name="abbreviation">ITEMS</set>
 			<set name="url">http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide</set>
 			<set name="official">false</set>
-			<set name="core">false</set>
+			<set name="core">true</set>
 			<set name="release">20200101</set>
 		</setters>
 	</element>

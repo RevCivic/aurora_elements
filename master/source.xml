@@ -11,6 +11,7 @@
 		</description>
 		<setters>
 			<set name="abbreviation">TMKOM</set>
+      <set name="url">http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide</set>
 			<set name="author" abbreviation="RDB" url="https://facebook.com/RealDungeonBros">RealDungeonBros</set>
 			<set name="third-party">true</set>
 		</setters>
