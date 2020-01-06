@@ -10,6 +10,5 @@
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/main/feats/source.xml" />
-		<!--<file name="boons.xml" url="https://raw.githubusercontent.com/revcivic/auror_elements/master/main/items/boons.xml" />-->
 	</files>
 </index>
