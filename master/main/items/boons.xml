@@ -15,4 +15,5 @@
 			<set name="type">Epic Boon</set>
 			<set name="slot">gift</set>
 		</setters>
+	</element>
   </elements>
