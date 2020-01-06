@@ -11,6 +11,10 @@
 		</description>
 		<setters>
 			<set name="abbreviation">ITEMS</set>
+			<set name="url">This value does not yet exist</set>
+			<set name="official">false</set>
+			<set name="core">false</set>
+			<set name="release">20200101</set>
 		</setters>
 	</element>
 </elements>
