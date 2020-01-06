@@ -5,13 +5,13 @@
 		<description>The content from the core rulebooks.</description>
 		<author url="http://facebook.com/realdungeonbros">RealDungeonBros</author>
 		<update version="1.0.0">
-			<file name="main.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/main.index" />
+			<file name="main.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/main.index" />
 		</update>
 	</info>
 	<files>
-		<obsolete name="sources.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/main/sources.xml" />
-		<file name="items.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/main/items.index" />
-		<file name="spells.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/main/spells.index" />
-		<file name="feats.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/main/feats.index" />
+		<obsolete name="sources.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/main/sources.xml" />
+		<file name="items.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/main/items.index" />
+		<file name="spells.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/main/spells.index" />
+		<file name="feats.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/main/feats.index" />
 	</files>
 </index>
