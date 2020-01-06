@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/main/source.xml" />
+		</update>
+	</info>
+	<element name="" type="Source" source="Core" id="ID_SOURCE_TMKOM_SETTING">
+		<description>
+			<![CDATA[<p>Here it is you devilish bitches.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">TMKOM</set>
+			<set name="author" abbreviation="RDB" url="https://facebook.com/RealDungeonBros">RealDungeonBros</set>
+			<set name="third-party">true</set>
+		</setters>
+	</element>
+</elements>
