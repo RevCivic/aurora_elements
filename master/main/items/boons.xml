@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Supernatural Gifts</name>
+    <update version="0.0.1">
+      <file name="boons.xml"/>
+    </update>
+  </info>
+  <element name="Boon of the Fearless Guard" type="magic Item" source="The Mad King of Malai" id="ID_TMKOM_ITEM_BOON_OF_THE_FEARLESS_GUARD">
+    <description>
+      <p></p>
+    </description>
+
+
+  </elements>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="1.0.0">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/main/items/source.xml" />
+		</update>
+	</info>
+	<element name="Custom Items" type="Source" source="Core" id="ID_TMKOM_ITEMS">
+		<description>
+			<![CDATA[<p><strong>Baller ass shit from our epic fucking game. Bitches.</strong></p><p>We have some awesome shit, so now we can all get to it when we need to. Fuck yeah.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">ITEMS</set>
+		</setters>
+	</element>
+</elements>

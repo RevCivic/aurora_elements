@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="1.0.0">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/main/sources.xml" />
+		</update>
+	</info>
+
+</elements>

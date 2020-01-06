@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="1.0.0">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/main/feats/source.xml" />
+		</update>
+	</info>
+	<element name="Custom Feats" type="Source" source="main" id="ID_TMKOM_FEATS">
+		<description>
+			<![CDATA[<p><strong>Baller ass shit from our epic fucking game. Bitches.</strong></p><p>We have some awesome shit, so now we can all get to it when we need to. Fuck yeah.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">FEATS</set>
+		</setters>
+	</element>
+</elements>
