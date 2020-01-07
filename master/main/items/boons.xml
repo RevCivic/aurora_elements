@@ -3,7 +3,7 @@
 	<info>
 		<name>Supernatural Gifts</name>
     <update version="0.0.1">
-      <file name="boons.xml"/>
+      <file name="boons.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/main//items/boons.xml" />
     </update>
   </info>
   <element name="Boon of the Fearless Guard" type="magic Item" source="The Mad King of Malai" id="ID_TMKOM_ITEM_BOON_OF_THE_FEARLESS_GUARD">
