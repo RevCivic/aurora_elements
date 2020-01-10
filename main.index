@@ -5,7 +5,7 @@
 		<description>The content from the core rulebooks.</description>
 		<author url="http://facebook.com/realdungeonbros">RealDungeonBros</author>
 		<update version="1.0.0">
-			<file name="main.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/main.index" />
+			<file name="main.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/main.index" />
 		</update>
 	</info>
 	<files>

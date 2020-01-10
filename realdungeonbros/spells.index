@@ -5,10 +5,10 @@
 		<description>Items from our super awesome campaign</description>
 		<author url="http://facebook.com/realdungeonbros">RealDungeonBros</author>
 		<update version="0.1">
-			<file name="spells.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/main/spells.index" />
+			<file name="spells.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/spells.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/main/spells/source.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/spells/source.xml" />
 	</files>
 </index>

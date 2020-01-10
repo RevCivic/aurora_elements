@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="1.0.0">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/main/feats/source.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/feats/source.xml" />
 		</update>
 	</info>
 	<element name="Custom Feats" type="Source" source="main" id="ID_TMKOM_FEATS">
