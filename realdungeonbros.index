@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>The Mad King of Malai</name>
+		<description>The content from the core rulebooks.</description>
+		<author url="http://facebook.com/realdungeonbros">RealDungeonBros</author>
+		<update version="1.0.0">
+			<file name="realdungeonbros.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros.index" />
+		</update>
+	</info>
+	<files>
+		<obsolete name="sources.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/realdungeonbros/sources.xml" />
+		<file name="items.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/realdungeonbros/items.index" />
+		<file name="spells.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/realdungeonbros/spells.index" />
+		<file name="feats.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/master/realdungeonbros/feats.index" />
+	</files>
+</index>
