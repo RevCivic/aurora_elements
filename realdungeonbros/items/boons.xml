@@ -16,4 +16,31 @@
 			<set name="slot">gift</set>
 		</setters>
 	</element>
+	<element name="Boon of the Heart of Heroes" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_ITEM_BOON_OF_THE_HEART_OF_HEROES">
+    <description>
+      <p>You can expend all your hit points in a magical explosion healing yourself and any creatures you choose with the hit points spent. Alternatively, you can instead deal damage equal to (Your total hit points)d4 damage to creatures of your choosing, or your total hit points plus 50</p>
+    </description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Epic Boon</set>
+			<set name="slot">gift</set>
+		</setters>
+	</element>
+	<element name="Boon of Giant's Grip" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_ITEM_BOON_OF_GIANTS_GRIP">
+    <description>
+      <p>The strength of giants infuse your hands
+				<ul>
+					<li>You can wield a two-handed melee weapon in one hand.</li>
+					<li>You can grapple creatures up to one size category larger than you.</li>
+					<li>Creatures have disadvantage on breaking out of your grapple.</li>
+					<li>When grappling a creature, you can use a bonus action to deal bludgeoning damage equal to 1d6 + your Strength modifier.</li>
+				</ul>
+			</p>
+    </description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Epic Boon</set>
+			<set name="slot">gift</set>
+		</setters>
+	</element>
 </elements>
