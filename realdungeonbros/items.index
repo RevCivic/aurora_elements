@@ -11,5 +11,7 @@
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/source.xml" />
 		<file name="boons.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/boons.xml" />
+		<file name="armor.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/armor.xml" />
+		<file name="weapons.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/weapons.xml" />
 	</files>
 </index>

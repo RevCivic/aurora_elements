@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Weapons</name>
+		<description></description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">RealDungeonBros</author>
+		<update version="0.0.6">
+			<file name="weapons.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/weapons.xml" />
+		</update>
+	</info>
+	<element name="Dragon Tooth Sawblade" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_MAGIC_ITEM_DRAGON_TOOTH_BLADE">
+		<description>
+			<p>With an array of teeth, supposedly ripped from a dead black dragons mouth, this blade and all it's mighty heft wreak havok on it's enemies.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">2000</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">4</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE</set>
+			<set name="name-format">Dragon Tooth Sawblade +{{enhancement}}</set>
+      <set name="damage">2d12</set>
+		</setters>
+	</element>
+</elements>

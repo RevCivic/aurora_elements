@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Armor</name>
+		<description></description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">RealDungeonBros</author>
+		<update version="0.0.6">
+			<file name="armor.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/armor.xml" />
+		</update>
+	</info>
+	<element name="Armor of the Von Smith" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_MAGIC_ITEM_ARMOR_OF_VON_SMITH">
+		<description>
+			<p>Forged in Genasi flames, tempered and crafted by the scientific mind of Envil. This armor is gold in appearance, with markings throughout. This armor grant resistance to fire, along with the gift of resolve, increasing your constitution by 2</p>
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">18000</set>
+			<set name="slot">body</set>
+			<set name="type" addition="heavy">Armor</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">5</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+			<set name="name-format">Armor of the Von Smith</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="5" bonus="enhancement" />
+      <stat name="constitution" value="2" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE"/>
+		</rules>
+	</element>
+  <element name="Cracked Flail Snail Shell" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_MAGIC_ITEM_CRACKED_FLAIL_SNAIL_SHELL">
+		<description>
+			<p>The cracked carapace of a deceased flail snail, same as when it was covering a snail, this shell emits an anti-magic barrier for its user. The Wearer gets advantage on any saving throws against any magical attack.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">18000</set>
+			<set name="slot">body</set>
+			<set name="type" addition="heavy">Armor</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">5</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+			<set name="name-format">Cracked Flail Snail Shell</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
+		</rules>
+	</element>
+  <element name="Viarus' Finery" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_MAGIC_ITEM_VIARUS_FINERY">
+		<description>
+			<p>A suit crafted by a Escillion Royal threadweaver and embued with magic from an elder mage, this suit is semi-sentient. It cares for itself and it's owner, grooming, cleaning, and keeping safe. Completely flame-retardent, and near-impossible to destroy. When cut, slashed, ripped, or otherwise, the suit will go about repairing itself.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">350000</set>
+			<set name="slot">body</set>
+			<set name="type" addition="light">Armor</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">4</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>
+			<set name="name-format">Viarus' Finery</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="4" bonus="enhancement" />
+      <stat name="charisma" value="6" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE"/>
+		</rules>
+	</element>
+</elements>
