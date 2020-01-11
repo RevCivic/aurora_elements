@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Supernatural Gifts</name>
+		<name>Boons</name>
     <update version="0.0.1">
       <file name="boons.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/boons.xml" />
     </update>
   </info>
-  <element name="Boon of the Fearless Guard" type="magic Item" source="The Mad King of Malai" id="ID_TMKOM_ITEM_BOON_OF_THE_FEARLESS_GUARD">
+  <element name="Boon of the Fearless Guard" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_ITEM_BOON_OF_THE_FEARLESS_GUARD">
     <description>
       <p>You have grown capable of guaranteeing your strikes at the cost of great danger to yourself. On your turn, you can decide that your attacks (including spell attacks) are guaranteed to hit, but doing this even once causes all enemies to also be guaranteed their attacks hit until the start of your next turn. Guaranteeing your attacks hit this way causes you to not roll for them, ensuring that you cannot get a critical hit. However, enemies still roll their attacks, hitting regardless of their roll but maintaining their ability to critically hit.</p>
     </description>
@@ -16,4 +16,4 @@
 			<set name="slot">gift</set>
 		</setters>
 	</element>
-  </elements>
+</elements>
