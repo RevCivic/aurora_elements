@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Boons</name>
-    <update version="0.0.1">
+    <update version="1.2.0">
       <file name="boons.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/boons.xml" />
     </update>
   </info>
@@ -35,6 +35,53 @@
 					<li>Creatures have disadvantage on breaking out of your grapple.</li>
 					<li>When grappling a creature, you can use a bonus action to deal bludgeoning damage equal to 1d6 + your Strength modifier.</li>
 				</ul>
+			</p>
+    </description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Epic Boon</set>
+			<set name="slot">gift</set>
+		</setters>
+	</element>
+	<element name="Boon of Destructive Touch" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_ITEM_BOON_OF_DESTRUCTIVE_TOUCH">
+    <description>
+      <p>Your body radiates so much malice, that living creatures cannot physically touch you without being harmed. If you make a successful melee spell attack against a creature, they take 3d10 necrotic damage. In addition:
+				If a creature makes an unarmed attack against you and you are wearing light or no armor, they must make a Constitution save with a DC equal to 12 + your proficiency bonus. On a failure, they take 2d10 necrotic damage.
+				Every round you are grappling a creature, or a creature is grappling you, they must make a Constitution save or take damage, as above.
+				If you make a successful unarmed strike against a creature wearing light or no armor, they must make a Constitution save or take damage, as above.
+				If a creature succeeds or fails a saving throw from this boon, they are immune to the effects of this boon for one round
+				You may re-flavor this boon to instead deal your choice of Fire, Ice, Lightning, Poison, or Radiant damage.</p>
+    </description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Epic Boon</set>
+			<set name="slot">gift</set>
+		</setters>
+	</element>
+	<element name="Boon of The Reaper" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_ITEM_BOON_OF_THE_REAPER">
+    <description>
+      <p>
+				<ul>
+					<li>Immunity to Necrotic Damage</li>
+					<li>Death's Presence<br></br>
+						All creatures in a 10ft radius take 2d6 damage per round, radius increases by 10ft every 5 rounds. Damage increases by 2d6 at level 16
+					</li>
+				</ul>
+			</p>
+    </description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Epic Boon</set>
+			<set name="slot">gift</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC"/>
+		</rules>
+	</element>
+	<element name="Boon of Carnage" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_ITEM_BOON_OF_CARNAGE">
+    <description>
+      <p>As a bonus action, you go into a frenzy for 1 minute. While in this frenzy, you have advantage on all melee attacks. In addition, when you hit a creature with a melee attack you deal an extra 4d6 damage. When this frenzy ends you gain a level of exhaustion.
+			You regain the ability to go into this frenzy after a long rest.
 			</p>
     </description>
 		<setters>

@@ -4,7 +4,7 @@
 		<name>Armor</name>
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">RealDungeonBros</author>
-		<update version="0.0.6">
+		<update version="1.2.0">
 			<file name="armor.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/armor.xml" />
 		</update>
 	</info>
@@ -35,7 +35,7 @@
 		<setters>
 			<set name="category">Magic Armor</set>
 			<set name="cost" currency="gp">18000</set>
-			<set name="slot">body</set>
+			<set name="slot">Shield</set>
 			<set name="type" addition="heavy">Armor</set>
 			<set name="rarity">Legendary</set>
 			<set name="enhancement">5</set>

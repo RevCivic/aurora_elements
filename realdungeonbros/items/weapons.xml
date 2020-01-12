@@ -4,7 +4,7 @@
 		<name>Weapons</name>
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">RealDungeonBros</author>
-		<update version="0.0.6">
+		<update version="1.2.0">
 			<file name="weapons.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/weapons.xml" />
 		</update>
 	</info>
@@ -20,7 +20,59 @@
 			<set name="enhancement">4</set>
 			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE</set>
 			<set name="name-format">Dragon Tooth Sawblade +{{enhancement}}</set>
-      <set name="damage">2d12</set>
 		</setters>
 	</element>
+  <element name="Bladed Chains" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_MAGIC_ITEM_BLADED_CHAIN">
+    <description>
+      <p>Serrated Chains cause 2d8 Bleed damage per rounds. Reach 2</p>
+    </description>
+    <setters>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">2000</set>
+      <set name="type" addition="any">Weapon</set>
+      <set name="rarity">Uncommon</set>
+      <set name="enhancement">3</set>
+      <set name="range">5/10</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE</set>
+      <set name="name-format">Bladed Chains +{{enhancement}}</set>
+    </setters>
+  </element>
+  <element name="Chain Whip" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_MAGIC_ITEM_CHAIN_WHIP">
+    <description>
+      <p>Standard Chains. Reach 2</p>
+    </description>
+    <setters>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">15</set>
+      <set name="type" addition="any">Weapon</set>
+      <set name="rarity">Common</set>
+      <set name="range">5/10</set>
+      <set name="enhancement">1</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE</set>
+      <set name="name-format">Chain Whip +{{enhancement}}</set>
+    </setters>
+  </element>
+  <element name="Blackrazor" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_MAGIC_ITEM_BLACKRAZOR">
+    <description>
+      <p>Forged by the Forgewitch Arkhandel Primeah, this onyx black blade of obsidian is harder than any stone or steel. The blade itself seems to hum with delight when it finds itself sinking into enemy flesh.
+        Blackrazor requires at least one soul every 3 days, or the user will be forced to begin making constitution saves as Blackrazor attempts to devour their soul slowly.
+        Upon picking up Blackrazor's handle, the sword is bound to the user until death, or until Arkhandel breaks the curse binding it.
+        When Starved, Blackrazor will also begin attempting to use compulsion on it's bound user. Forcing them to wander where they should not be, with the hopes of invoking some sort of fight.
+        Killing a soul-less creature will inflict 4d6 necrotic damage on the user.</p>
+    </description>
+    <setters>
+      <set name="keywords">greatsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="greatsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Greatsword</set>
+    </setters>
+    <rules>
+      <stat name="strength:save:misc" value="1" />
+      <stat name="dexterity:save:misc" value="2" />
+		</rules>
+  </element>
 </elements>

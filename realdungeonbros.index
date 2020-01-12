@@ -4,7 +4,7 @@
 		<name>The Mad King of Malai</name>
 		<description>The content from the core rulebooks.</description>
 		<author url="http://facebook.com/realdungeonbros">RealDungeonBros</author>
-		<update version="1.1.0">
+		<update version="1.2.0">
 			<file name="realdungeonbros.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros.index" />
 		</update>
 	</info>
