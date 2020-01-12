@@ -5,7 +5,7 @@
 			<file name="source.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/source.xml" />
 		</update>
 	</info>
-	<element name="" type="Source" source="Core" id="ID_SOURCE_TMKOM_SETTING">
+	<element name="RealDungeonBros" type="Source" source="Core" id="ID_SOURCE_TMKOM_SETTING">
 		<description>
 			<![CDATA[<p>Here it is you devilish bitches.</p>]]>
 		</description>
