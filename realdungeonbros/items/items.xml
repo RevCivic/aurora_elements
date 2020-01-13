@@ -4,13 +4,14 @@
 		<name>Items</name>
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">RealDungeonBros</author>
-		<update version="1.2.2">
+		<update version="1.2.3">
 			<file name="items.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/items.xml" />
 		</update>
 	</info>
   <element name="Mechanical Hand" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_MAGIC_ITEM_MECHANICAL_HAND">
     <description>
 			<p>This mechanical construct, created by Macha of Draenoth, serves as a upgraded appendage, granting proficiency in slight of hand, as well as an assortment of tools to make jobs like lockpicking and tinkering much easier (rolled with advantage). If using this hand as an unarmed attack, add a +2 to attack and a +6 to damage.</p>
+			<p>A magical rune inset to the forearm is attuned to the user. This rune grants the user usage of the spell "Counterspell" whenever magic is attempted against the user.</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -20,7 +21,7 @@
 			<set name="attunement" addition="by a creature missing some or all of a limb">true</set>
 		</setters>
     <rules>
-      <stat name="arcana:proficiency" value="proficiency" bonus="proficiency" />
+      <stat name="sleightofhand:proficiency" value="proficiency" bonus="proficiency" />
 			<grant type="Spell" id="ID_PHB_SPELL_COUNTERSPELL" />
     </rules>
   </element>

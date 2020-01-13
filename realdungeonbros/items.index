@@ -4,7 +4,7 @@
 		<name>Items</name>
 		<description>Items from our super awesome campaign</description>
 		<author url="http://facebook.com/realdungeonbros">RealDungeonBros</author>
-		<update version="1.2.2">
+		<update version="1.2.3">
 			<file name="items.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items.index" />
 		</update>
 	</info>
