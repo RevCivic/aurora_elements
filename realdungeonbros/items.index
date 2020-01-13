@@ -4,13 +4,14 @@
 		<name>Items</name>
 		<description>Items from our super awesome campaign</description>
 		<author url="http://facebook.com/realdungeonbros">RealDungeonBros</author>
-		<update version="1.2.0">
+		<update version="1.2.1">
 			<file name="items.index" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items.index" />
 		</update>
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/source.xml" />
 		<file name="boons.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/boons.xml" />
+		<file name="items.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/items.xml" />
 		<file name="armor.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/armor.xml" />
 		<file name="weapons.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/weapons.xml" />
 	</files>

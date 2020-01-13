@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Boons</name>
-    <update version="1.2.0">
+    <update version="1.2.1">
       <file name="boons.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/boons.xml" />
     </update>
   </info>

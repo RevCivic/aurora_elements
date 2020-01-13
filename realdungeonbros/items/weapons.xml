@@ -4,7 +4,7 @@
 		<name>Weapons</name>
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">RealDungeonBros</author>
-		<update version="1.2.0">
+		<update version="1.2.1">
 			<file name="weapons.xml" url="https://raw.githubusercontent.com/revcivic/aurora_elements/master/realdungeonbros/items/weapons.xml" />
 		</update>
 	</info>
@@ -75,4 +75,32 @@
       <stat name="dexterity:save:misc" value="2" />
 		</rules>
   </element>
+	<element name="James' Rod and Reel" type="Magic Item" source="The Mad King of Malai" id="ID_TMKOM_MAGIC_JAMES_ROD_REEL">
+		<description>
+			<p>Carved, crafted, strung and spun by father and son. The magic of noble elf lineage coarses through the once-gnarled branch of yew that has since been dried and treated to endure decades of use. Elven magic ensures that this rod never breaks, and holds up to the biggest fish.</p>
+		</description>
+		<setters>
+			<set name="keywords">sorcerer, warlock, wizard</set>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type">Staff</set>
+			<set name="attunement" addition="by a sorcerer, warlock, or wizard">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="charges">20</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="3" />
+			<stat name="strength:save:misc" value="3" />
+			<stat name="dexterity:save:misc" value="4" />
+			<stat name="constitution:save:misc" value="3" />
+			<stat name="intelligence:save:misc" value="3" />
+			<stat name="wisdom:save:misc" value="4" />
+			<stat name="charisma:save:misc" value="3" />
+			<stat name="spellcasting:attack" value="4" />
+		</rules>
+	</element>
 </elements>
